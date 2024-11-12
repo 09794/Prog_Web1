@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css " rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Eventinfo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Favoritos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Regiões
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disable</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container text-light bg-dark">
+        <div class="row">
+          <div class="col-9"><h1>Bem vindo</h1></div>
+          <div class="col-4"><h5>Nosso site funciona como Hub de informação, onde é possivel encontrar diversos eventos realacionados a fandom furry, como furmeets, convenções de hotel e entre outras coisas</h5> </div>
+          <div class="col-6"></div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; left: 100px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLwfLXRSnRSbbtYYlaVIQu4BF3Zgs6iUgbmw&s" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fursmeet</h5>
+          <p class="card-text">Evento de entrenimento que acontece durante um fim de semana,na parte sul do Brasil </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Convenção de Hotel</li>
+          <li class="list-group-item">Duração: 3 dias</li>
+          <li class="list-group-item">Local: Santa Maria,(RS)</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Página do Evento</a>
+          <a href="#" class="card-link">Local do Evento</a>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 19rem; top: -500px; left: 450px;">
+        <img src="https://pbs.twimg.com/media/FYF_QXJXwAEibLX.jpg:large" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Brasil Furfest</h5>
+          <p class="card-text">Sendo a maior convenção de hotel da Ámerica Latina, A Brasil Furfest lidera o topo </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Convenção de Hotel</li>
+          <li class="list-group-item">Duração: 3 dias</li>
+          <li class="list-group-item">Local: Santos,(SP)</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Página do Evento</a>
+          <a href="#" class="card-link">Local do Evento</a>
+        </div>
+      </div>
+      
+      <style>
+        body{
+            background-image: url(https://viajanteemserie.com.br/wp-content/uploads/2024/01/Aurora-Boreal-e-Geiseres-Fascinio-Natural-da-Islandia-em-7-Dias-.webp);
+            background-repeat: no-repeat;
+            background-position: top;
+            height: 800px;
+    
+        }
+        h1{
+            color:aliceblue
+
+        }
+
+      </style>
+
+
+
+</body>
+</html>
