@@ -1,0 +1,14 @@
+.tela-jogo{
+    border: solid black 1 px;
+    border-bottom: solid green 50 px;
+    width: 200%;
+    height: 800px;
+    background: linear-gradient(rgb(69, 163, 235)) rgb(247, 247, 253);
+}
+
+.cano{
+
+    width: 80px;
+    bottom: 0%;
+    position: absolute;
+}
